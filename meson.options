@@ -1,0 +1,5 @@
+option('wasm_client',
+  type: 'boolean',
+  value: false,
+  description: 'Build opcodec_wasm.js + .wasm browser client (requires emcc in PATH and Emscripten cross-file)',
+)
