@@ -7,7 +7,7 @@ project('opcodec', 'c',
     'b_pie=true',
     'b_lto=true',
   ],
-  meson_version: '>= 0.60.0',
+  meson_version: '>= 1.1.0',
 )
 
 cc = meson.get_compiler('c')
